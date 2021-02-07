@@ -56,4 +56,13 @@ The project aims to let local and online communities & DAOs manage their project
 - [App Prototype](https://app.q2t.fund)
 - [Alex](https://t.me/jabyl)
 
-
+# Contracts deployed on Kovan and verified on Etherscan:
+[**Gigs Registry**](https://kovan.etherscan.io/address/0x702fD6F0eb39FA5911106C27b488771C14fa0127#code)
+[**Community**](https://kovan.etherscan.io/address/0xb9d61c7D119163598Ae45c2b6c01A9C4607F7984#code)
+[**Community Treasury**](https://kovan.etherscan.io/address/0x3CFCae3fe95f555783E13DF1ce6697602608f66D#code)
+[**Validator (Chainlink)**](https://kovan.etherscan.io/address/0xBe5a890Ad011709c26c31C11D24b5eCbf4cdC245#code)
+[**Dito Credits**](https://kovan.etherscan.io/address/0x847C0b0549bBB4c4327Fa6812cc889fbea162ee0#code)
+## DAO Templates
+[**Blockchain/Open-source**](https://kovan.etherscan.io/address/0x912261b12Dfcb4f13c8955324870cA21676F6291#code)
+[**Art & Events**](https://kovan.etherscan.io/address/0x555c643cbC1119132a0736B6Fe8df2D41a09537f#code)
+[**Local Communities**](https://kovan.etherscan.io/address/0x98fF76Dbe4b7E931204788c676FE4D22565f825D#code)
