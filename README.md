@@ -27,6 +27,11 @@ The project aims to let local and online communities & DAOs manage their project
 2. On the other side, individual supporters and larger donors can seamlessly and trustlessly delegate their donations to the Quadratic Treasury, for it to automatically distribute it to the projects in the area of Public Goods based on milestones achieved in each distribution _snapshot_. In just 2 steps, they can select the Area (currently: _Blockchain/Open-source_; _Art&Events_; _Local Communities_) of Public Goods they want to support, and the repayment structure (0-to-50%), in case they wish to receive back part of their investment+interest. Also, this model _allows Q2T to bring non-repayable loans/grants on the DeFi space, and spares DAOs/projects the time that they would have wasted in tiring and bureaucratic processes to attract grants and external expertise._
 
 ## Specifics:
+- Anyone can permissionlessy donate to Public Goods projects (current Community areas: _Open-source_, _Art&Events_, _Local Projects_
+- Donors can customize their Delegation Agreement leveraging on **AAVE Native CD** (repayment structure: 0 to 50%)
+- Once a Community hits enough Milestones, a new Quadratic Distribution is triggered.
+- A snapshot is taken, and each Community with active Milestones in that epoch, will receive a % of the Distribution. 
+### Validation & Sybil-resistency:
 - Each community has its own ID
 - Each community member has a unique Skill-Wallet, with the credits they have earned. 
 - Each community has a __“Checkup score”__ - based on the *“variety coefficient”* of the skillset available internally, and the Milestones achieved by the internal projects. 
@@ -35,7 +40,7 @@ The project aims to let local and online communities & DAOs manage their project
 # How we are building it
 - AAVE Native Credit Delegation for staking, delegating & borrowing (done)
 - Chainlink Oracle for off-/on-chain Milestones verification (done)
-- DistributedTown for Mutual Credit system + DIDs (done)
+- [**DistributedTown**](https://github.com/distributedtown/about) for Mutual Credit system + DIDs (done)
 - Solidity Contracts (done)
 - Biconomy (for gasless meta-transactions - WIP) 
 - Matic L2 deployment (WIP)
@@ -45,6 +50,8 @@ The project aims to let local and online communities & DAOs manage their project
 - 22/01: Start coding
 - 02/02: First Prototype
 - 07/02: Submission @ __MarketMake__
+- 11/02: Won AAVEngineer Award (@ __MarketMake__, Sponsor: _AAVE_)
+- 11/02: Won _Best Project built with Chainlink_ (@ __MarketMake__, Sponsor: _Chainlink_)
 
 # Repos:
 - [**Smart Contracts**](https://github.com/Q2T-Fund/Q2T-Fund-contracts)
