@@ -33,17 +33,18 @@ The project aims to let local and online communities & DAOs manage their project
 - A snapshot is taken, and each Community with active Milestones in that epoch, will receive a % of the Distribution. 
 ### Validation & Sybil-resistency:
 - Each community has its own ID
-- Each community member has a unique Skill-Wallet, with the credits they have earned. 
+- Each community member has a unique SkillWallet, with the credits they have earned. 
 - Each community has a __“Checkup score”__ - based on the *“variety coefficient”* of the skillset available internally, and the Milestones achieved by the internal projects. 
 - Milestones are efficiently validated peer-to-peer and off-chain, and verified one-by-one through a decentralized oracle integration (**Chainlink**)
 
 # How we are building it
 - AAVE Native Credit Delegation for staking, delegating & borrowing (done)
 - Chainlink Oracle for off-/on-chain Milestones verification (done)
+- Textile ThreadDB for decentralized storage of Projects, Milestones and Members.
 - [**DistributedTown**](https://github.com/distributedtown/about) for Mutual Credit system + DIDs (done)
 - Solidity Contracts (done)
+- Polygon Network
 - Biconomy (for gasless meta-transactions - WIP) 
-- Matic L2 deployment (WIP)
 
 # First milestones
 - 15/01: Join __MarketMake Hack__ and start designing the protocol
@@ -52,6 +53,8 @@ The project aims to let local and online communities & DAOs manage their project
 - 07/02: Submission @ __MarketMake__
 - 11/02: Won AAVEngineer Award (@ __MarketMake__, Sponsor: _AAVE_)
 - 11/02: Won _Best Project built with Chainlink_ (@ __MarketMake__, Sponsor: _Chainlink_)
+- 23/03: New Frontend, Textile integration and improved contracts.
+- 31/03: Gitcoin GR9 Submission.
 
 # Repos:
 - [**Smart Contracts**](https://github.com/Q2T-Fund/Q2T-Fund-contracts)
