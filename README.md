@@ -61,6 +61,7 @@ The project aims to let local and online communities & DAOs manage their project
 - [**Frontend**](https://github.com/Q2T-Fund/Q2T-Fund-frontend)
 
 # Links & Contacts:
+- [GR9 Demo](https://www.youtube.com/watch?v=GNIQ2pCVJbc)
 - [MarketMake Demo](https://www.youtube.com/watch?v=Ww6GojVJeSI)
 - [Website](https://q2t.fund)
 - [App Prototype](https://app.q2t.fund)
