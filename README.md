@@ -2,7 +2,7 @@
 Q2T combines _DIDs_, _Mutual Credit_ & _Quadratic Funding_ to allow (1) a sybil-resistant, fair mean for donors to support Public Goods - and (2) a way for projects to attract _funds_ and _non-repayable loans_ in a **permissionless** fashion, based exclusively on **the milestones achieved**.
 
 # Repos:
-- [**Smart Contracts**](https://github.com/Q2T-Fund/Q2T-Fund-contracts)
+- [**Smart Contracts**](https://github.com/Q2T-Fund/Q2T-Fund-contracts-polygon)
 - [**Frontend**](https://github.com/Q2T-Fund/Q2T-Fund-frontend)
 
 # Problem(s).
@@ -24,13 +24,21 @@ The project aims to let local and online communities & DAOs manage their project
 ## Roles:
 1. On one side, Members of a DAO, a collective, or a local community can easily Stake and Pool together their funds providing liquidity to the AAVE protocol, in order to accrue returns and redistribute funds and interest to internal projects based on each project's individual milestones achieved. This allows them to organize their projects in an efficient manner ("coordination problem"), and administrate collective funds in a sustainable, fully decentralized way.
 
-2. On the other side, individual supporters and larger donors can seamlessly and trustlessly delegate their donations to the Quadratic Treasury, for it to automatically distribute it to the projects in the area of Public Goods based on milestones achieved in each distribution _snapshot_. In just 2 steps, they can select the Area (currently: _Blockchain/Open-source_; _Art&Events_; _Local Communities_) of Public Goods they want to support, and the repayment structure (0-to-50%), in case they wish to receive back part of their investment+interest. Also, this model _allows Q2T to bring non-repayable loans/grants on the DeFi space, and spares DAOs/projects the time that they would have wasted in tiring and bureaucratic processes to attract grants and external expertise._
+2. On the other side, individual supporters and larger donors can seamlessly and trustlessly delegate their donations to the Quadratic Treasury, for it to automatically distribute it to the projects in the area of Public Goods based on milestones achieved in each distribution _snapshot_. In just 2 steps, they can select the Area (currently: _Open-source & DeFi_, _Art, Events & NFTs_, _Local Projects & DAOs_) of Public Goods they want to support, and the repayment structure (0-to-50%), in case they wish to receive back part of their investment+interest. Also, this model _allows Q2T to bring non-repayable loans/grants on the DeFi space, and spares DAOs/projects the time that they would have wasted in tiring and bureaucratic processes to attract grants and external expertise._
 
 ## Specifics:
-- Anyone can permissionlessy donate to Public Goods projects (current Community areas: _Open-source_, _Art&Events_, _Local Projects_
+- Contracts deployed on Polygon main net and fully functional
+- Anyone can permissionlessy donate to Public Goods projects (current Templates: _Open-source & DeFi_, _Art, Events & NFTs_, _Local Projects & DAOs_)
+- Donations can be made in DAIs or USDTs
+- Donations go to the Q2T.sol contract (ERC1155)
 - Donors can customize their Delegation Agreement leveraging on **AAVE Native CD** (repayment structure: 0 to 50%)
-- Once a Community hits enough Milestones, a new Quadratic Distribution is triggered.
+- Once a Project hits enough Milestones (3840 Credits), a new Quadratic Distribution is triggered. 
 - A snapshot is taken, and each Community with active Milestones in that epoch, will receive a % of the Distribution. 
+- Q2T.sol contract mints 2 (_burnable_) ERC721: templateTreasury and repayerTreasury
+- templateTreasury stores (100% - repayment)/2 of the donation for each template, and gets destroyed after the Quadratic Distribution is completed.
+- repayerTreasury stores the Repayment requested by the donor (0-to-50% of the donation). Once there is enough yield to repay the Donor, the Donor can request withdrawal, and will receive Repayment Structure + yield accumulated.
+- (100% - repayment)/2 is always stored in the Q2T reserve, to (1) guarantee constant liquidity, (2) maintain a _health score_ (LTV) higher than 1.3, and (3) guarantee maximum degree of safety for donors and projects.
+- 
 ### Validation & Sybil-resistency:
 - Each community has its own ID
 - Each community member has a unique SkillWallet, with the credits they have earned. 
@@ -38,10 +46,13 @@ The project aims to let local and online communities & DAOs manage their project
 - Milestones are efficiently validated peer-to-peer and off-chain, and verified one-by-one through a decentralized oracle integration (**Chainlink**)
 
 # How we are building it
-- AAVE Native Credit Delegation for staking, delegating & borrowing (done)
-- Chainlink Oracle for off-/on-chain Milestones verification (done)
-- Textile ThreadDB for decentralized storage of Projects, Milestones and Members.
-- [**DistributedTown**](https://github.com/distributedtown/about) for Mutual Credit system + DIDs (done)
+- All contracts are deployed on **Polygon** for affordable micro-donations (almost gas-free), speed and improved UX.
+- CI/CD flow and web deployment are decentralized and fully automated leveraging on **Skynet**
+- **AAVE _Native Credit Delegation_ and _Lending & Borrowing_** and for staking, delegating & borrowing
+- **Chainlink Oracle** for _off-/on-chain Milestones verification_
+- **Textile Threads & Buckets** for Decentralized, persistent cloud storage for Projects & Milestones metadata.
+- [**DistributedTown**](https://github.com/distributedtown/about) for Mutual Credit system 
+- [**SkillWallet**](https://github.com/SkillWallet/contracts#readme) for DIDs (done)
 - Solidity Contracts (done)
 - Polygon Network
 - Biconomy (for gasless meta-transactions - WIP) 
@@ -53,18 +64,21 @@ The project aims to let local and online communities & DAOs manage their project
 - 07/02: Submission @ __MarketMake__
 - 11/02: Won AAVEngineer Award (@ __MarketMake__, Sponsor: _AAVE_)
 - 11/02: Won _Best Project built with Chainlink_ (@ __MarketMake__, Sponsor: _Chainlink_)
+- 25/02: Join __Encode: Hack the System__ and start re-designing the protocol for production.
 - 23/03: New Frontend, Textile integration and improved contracts.
-- 31/03: Gitcoin GR9 Submission.
+- 04/2021: Contracts deployed on **Polygon Main net**.
+- 04/2021: _Web Deployment & CI/CD_ flow using **Skynet**.
+- 02/05: Submission @ **Encode: Hack the System**.
 
 # Repos:
-- [**Smart Contracts**](https://github.com/Q2T-Fund/Q2T-Fund-contracts)
+- [**Smart Contracts**](https://github.com/Q2T-Fund/Q2T-Fund-contracts-polygon)
 - [**Frontend**](https://github.com/Q2T-Fund/Q2T-Fund-frontend)
 
 # Links & Contacts:
-- [GR9 Demo](https://www.youtube.com/watch?v=GNIQ2pCVJbc)
+- [Encode Demo]()
 - [MarketMake Demo](https://www.youtube.com/watch?v=Ww6GojVJeSI)
 - [Website](https://q2t.fund)
-- [App Prototype](https://app.q2t.fund)
+- [App Working Prototype](https://app.q2t.fund)
 - [Alex](https://t.me/jabyl)
 
 # Contracts deployed on Kovan and verified on Etherscan:
