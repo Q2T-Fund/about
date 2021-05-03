@@ -46,8 +46,8 @@ The project aims to let local and online communities & DAOs manage their project
 - Milestones are efficiently validated peer-to-peer and off-chain, and verified one-by-one through a decentralized oracle integration (**Chainlink**)
 
 # How we are building it
-- All contracts are deployed on **Polygon** for affordable micro-donations (almost gas-free), speed and improved UX.
-- CI/CD flow and web deployment are decentralized and fully automated leveraging on **Skynet**
+- All contracts are deployed on **Polygon Main Net** for affordable micro-donations (almost gas-free), speed and improved UX.
+- Leveraging on **Skynet** CI/CD flow and web deployment are decentralized and fully automated
 - **AAVE _Native Credit Delegation_ and _Lending & Borrowing_** and for staking, delegating & borrowing
 - **Chainlink Oracle** for _off-/on-chain Milestones verification_
 - **Textile Threads & Buckets** for Decentralized, persistent cloud storage for Projects & Milestones metadata.
