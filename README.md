@@ -81,13 +81,11 @@ The project aims to let local and online communities & DAOs manage their project
 - [App Working Prototype](https://app.q2t.fund)
 - [Alex](https://t.me/jabyl)
 
-# Contracts deployed on Kovan and verified on Etherscan:
-[**Gigs Registry**](https://kovan.etherscan.io/address/0x702fD6F0eb39FA5911106C27b488771C14fa0127#code)<br />
-[**Community**](https://kovan.etherscan.io/address/0xb9d61c7D119163598Ae45c2b6c01A9C4607F7984#code)<br />
-[**Community Treasury**](https://kovan.etherscan.io/address/0x3CFCae3fe95f555783E13DF1ce6697602608f66D#code)<br />
-[**Validator (Chainlink)**](https://kovan.etherscan.io/address/0xBe5a890Ad011709c26c31C11D24b5eCbf4cdC245#code)<br />
+# Contracts deployed on Polygon Main net:
+[**Q2T**](https://explorer-mainnet.maticvigil.com/address/0xc015c3a36d8Fb3A8Ef118Bd1026c2cC6AA946ba7)<br />
+[**DistributedTown**](https://explorer-mainnet.maticvigil.com/address/0x2B8f17CBf3854cBc4602Eb18012FE395db559dAc)<br />
+[**Projects**](https://explorer-mainnet.maticvigil.com/address/0x3226E081284103D9e99727015EcAC8ba9BA6CbB3)<br />
+[**SkillWallet**](https://explorer-mainnet.maticvigil.com/tokens/0x822a6A53c355B953089506bBAae4f122343Ce025/token-transfers)<br />
 [**DITO Credits**](https://kovan.etherscan.io/address/0x847C0b0549bBB4c4327Fa6812cc889fbea162ee0#code)<br />
-## DAO Templates
-[**Blockchain/Open-source**](https://kovan.etherscan.io/address/0x912261b12Dfcb4f13c8955324870cA21676F6291#code)<br />
-[**Art & Events**](https://kovan.etherscan.io/address/0x555c643cbC1119132a0736B6Fe8df2D41a09537f#code)<br />
-[**Local Communities**](https://kovan.etherscan.io/address/0x98fF76Dbe4b7E931204788c676FE4D22565f825D#code)<br />
+**Milestones** ([1](https://explorer-mainnet.maticvigil.com/address/0x43284D2035Fc7e2dDcC304F2eD9E9935D9b22aa0/transactions), [2](https://explorer-mainnet.maticvigil.com/address/0xcDC90447Ee654B1a90068FB41445a198E06fbA6F/transactions), [3](https://explorer-mainnet.maticvigil.com/address/0x0506bCb805ed40e7e1173ee620Be67Ab08aEEFB1/transactions)
+[Projects](https://explorer-mainnet.maticvigil.com/tokens/0x3226E081284103D9e99727015EcAC8ba9BA6CbB3/token-transfers)
