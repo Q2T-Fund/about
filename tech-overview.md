@@ -1,7 +1,10 @@
 # Quadratic Treasury (Q2T)
 Q2T combines _DIDs_, _Mutual Credit_ & _Quadratic Funding_ to allow (1) a sybil-resistant, fair mean for donors to support Public Goods - and (2) a way for projects to attract _funds_ and _non-repayable loans_ in a **permissionless** fashion, based exclusively on **the milestones achieved**.
 
-# Repos:
+# Links & Repos:
+- [**Demo**](https://www.youtube.com/watch?v=Xf__qinVamM)
+- [**Functional Prototype**](https://1005agh6pbko9okg69o4n47ohkmu2b3au5acf9g9hd9248v6lpja4r8.siasky.net/)
+- [**Pitch Deck**](https://tiny.cc/Q2T-pitch)
 - [**Smart Contracts**](https://github.com/Q2T-Fund/Q2T-Fund-contracts-polygon)
 - [**Frontend**](https://github.com/Q2T-Fund/Q2T-Fund-frontend)
 
@@ -78,7 +81,7 @@ The project aims to let local and online communities & DAOs manage their project
 - [Encode Demo]()
 - [MarketMake Demo](https://www.youtube.com/watch?v=Ww6GojVJeSI)
 - [Website](https://q2t.fund)
-- [App Working Prototype](https://app.q2t.fund)
+- [App Working Prototype](https://1005agh6pbko9okg69o4n47ohkmu2b3au5acf9g9hd9248v6lpja4r8.siasky.net/)
 - [Alex](https://t.me/jabyl)
 
 # Contracts deployed on Polygon Main net:
